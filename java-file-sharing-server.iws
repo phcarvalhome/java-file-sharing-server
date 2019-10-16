@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f45efc06-4639-49e4-89f0-da8242481708" name="Default Changelist" comment="" />
+    <list default="true" id="f45efc06-4639-49e4-89f0-da8242481708" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/java-file-sharing-server.iws" beforeDir="false" afterPath="$PROJECT_DIR$/java-file-sharing-server.iws" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,11 +71,23 @@
       <updated>1571194564432</updated>
       <workItem from="1571194567599" duration="6214000" />
       <workItem from="1571207725285" duration="2299000" />
+      <workItem from="1571233682845" duration="1096000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

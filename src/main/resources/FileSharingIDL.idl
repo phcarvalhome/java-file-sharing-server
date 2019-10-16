@@ -1,0 +1,46 @@
+struct User;
+struct FileData;
+struct FileMetadata;
+
+module com {
+
+    module phcarvalho {
+
+        module model {
+
+            module corba {
+
+                struct User {
+                    string id;
+                };
+
+                struct FileMetadata {
+                    User user;
+                    string name;
+                };
+
+                typedef sequence<FileMetadata> FileMetadataArray;
+
+                struct FileData {
+                    FileMetadata metadata;
+                    string content;
+                };
+
+                module client {
+
+                    interface ClientService {
+                        FileData downloadFileData(in FileMetadata fileMetadata);
+                    };
+                };
+
+                module server {
+
+                    interface ServerService {
+                        void connectToServer(in FileMetadataArray fileMetadataArray);
+                        FileMetadataArray search(in string text);
+                    };
+                };
+            };
+        };
+    };
+};
